@@ -1,0 +1,49 @@
+
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+}
+
+ol {
+    margin-bottom: 3em;
+}
+
+.action {
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 20px;
+}
+
+button.action:focus{
+    outline-width: 0;
+}
+
+.list {
+  margin: 25px 0 25px 0;
+  width: 50%;
+}
+
+.up {
+    margin-left: 10px;
+}
+
+.editInput {
+    width: 75px;
+    height: 20px;
+}
+
+button.up:focus {
+    outline-width: 0;
+}
+
+li.list:hover {
+    cursor: default;
+    background-color: red;
+    transition: 2000ms;
+}
